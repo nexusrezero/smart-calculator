@@ -9,3 +9,9 @@
 - Modular project structure
 
 Built with using Python
+
+## ▶️ How to Run
+
+```bash
+cd smart_calculator
+python3 main.py
