@@ -1,3 +1,6 @@
+# SMART CALCULATOR MAIN SYSTEM
+# Handles menu and user interaction
+
 import calculator as calc
 import number_tools as nt
 import history as h
