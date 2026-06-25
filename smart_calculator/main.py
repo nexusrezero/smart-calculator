@@ -1,12 +1,14 @@
 # SMART CALCULATOR MAIN SYSTEM
 # Handles menu and user interaction
 
+# Load required modules
 import calculator as calc
 import number_tools as nt
 import history as h
 
 history = h.load_history()
 
+# Display main menu
 def show_menu():
     print("\n==============================")
     print("   SMART CALCULATOR v5")
