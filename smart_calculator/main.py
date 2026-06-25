@@ -20,6 +20,7 @@ def show_menu():
     print("5. Clear History")
     print("6. Exit")
 
+#calls the calculator_mode 
 def calculator_mode():
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
@@ -48,6 +49,7 @@ def calculator_mode():
     history.append(item)
     h.save_history(item)
 
+#calls the number_mode
 def number_mode():
     n = float(input("Enter number: "))
     result = nt.check_number(n)
@@ -57,6 +59,7 @@ def number_mode():
     history.append(item)
     h.save_history(item)
 
+#calls the even_odd_mode
 def even_odd_mode():
     n = int(input("Enter number: "))
     result = nt.check_even_odd(n)
@@ -66,6 +69,7 @@ def even_odd_mode():
     history.append(item)
     h.save_history(item)
 
+#calls the view_history 
 def view_history():
     print("\n===== HISTORY =====")
     if not history:
@@ -73,12 +77,13 @@ def view_history():
     else:
         for item in history:
             print("-", item)
-
+#calls the clear_history 
 def clear_history():
     history.clear()
     h.clear_history()
     print("History cleared.")
 
+#infinite loop
 while True:
     show_menu()
     choice = input("\nEnter choice: ")
