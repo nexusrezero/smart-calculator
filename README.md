@@ -40,4 +40,4 @@ smart_calculator/
 ├── calculator.py
 ├── number_tools.py
 ├── history.py
-├── history.txt
+├── history.txt 
